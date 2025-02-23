@@ -1,0 +1,74 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Registrar Alumnos SCIII</title>
+
+<!--Inserta los Estilos creados -->
+<link href="estilos.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<form action="index.html">
+  <input type="button" value="Ir al inicio" onClick=" window.location.href='Index.html' ">
+
+</form>
+
+<div class="group">
+  <form action="registroalumnos.php" method="POST">
+  <h2><em>Formulario que Registra a los Alumnos del Tecnologico de Huetam</em></h2>
+ 
+	<!--El nombre del campo de la tabla esta entre comillas y la Etiqueta se Pone sin Comillas -->
+
+
+
+	
+	<label for="Nombre">Nombre del Alumno del TEC <span><em>(requerido)</em> </span>    </label>        
+	<input type="text" name="Nombre" class="form-input2" required/>			
+
+
+	<label2 for="ApellidoPaterno">Apellido Paterno <span><em>(requerido)</em></span2></label>
+	<input type="text" name="ApellidoPaterno" class="form-input" required/>   
+                   
+
+      <label3 for="ApellidoMaterno">Apellido Materno <span><em>(requerido)</em></span3></label>
+      <input type="text" name="ApellidoMaterno" class="form-input3" required/>   
+
+      <label for="email">Email <span><em>(requerido)</em></span></label>
+      <input type="email" name="email" class="form-input" />
+
+
+      <label for="Direccion">Direccion <span><em>(requerido)</em></span></label>
+      <input type="text" name="Direccion" class="form-input" required/>   
+
+      <label for="Municipio">Municipio <span><em>(requerido)</em></span></label>
+      <input type="text" name="Municipio" class="form-input" required/>   
+
+      <label for="Estado">Estado <span><em>(requerido)</em></span></label>
+      <input type="text" name="Estado" class="form-input" required/>                   
+
+      <label for="CURP">CURP <span><em>(requerido)</em></span></label>
+      <input type="text" name="CURP" class="form-input" required/>   
+
+      <label for="Licenciatura">Licenciatura <span><em>(requerido)</em></span></label>
+      <input type="text" name="Licenciatura" class="form-input" required/>   
+
+      <label for="Foto">Fotografia <span><em>(requerido)</em></span></label>
+      <input type="text" name="Foto" class="form-input" required/>                   
+
+
+     
+     <right> <input class="form-btn" name="submit" type="submit" value="Agregar Alumno" /></center>
+
+    </p>
+
+  </form>
+	
+	<left><input type="button" value="Pagina de Inicio" onClick=" window.location.href='index.html' ">
+	<rigth><input class="form-btn" value="Inicio" onClick=" window.location.href='index.html' ">
+<p>&nbsp;</p>
+</div>
+</body>
+</html>
